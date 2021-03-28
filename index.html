@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center of Excellence | IIIT-Delhi </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header class="page-header">
+        <div class="page-header__top">
+            <div class='page-header__logo'>Center of Excellence</div>
+            <div class="page-header__toggle" onclick="toggleMenu()">☰</div>
+        </div>
+        <nav class="page-header__bottom">
+            <ul id="navigation" class="navigation">
+                <li class="navigation__item">Home</li>
+                <li class="navigation__item">About</li>
+                <li class="navigation__item">Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- contents -->
+    <div class="container">
+        <header class="hero">
+            <h1 class="hero-heading">Center of Excellence <br> @ IIIT-Delhi</h1>
+            <img class="hero-image" src="IIITD_building.svg" alt=""></svg>
+        </header>
+        <section class="section container container-center">
+            <h1 class="section-heading">What is Center of Excellence?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptas suscipit tempora cumque? Accusamus, natus facilis obcaecati, cupiditate quis perspiciatis laudantium quasi dignissimos pariatur, minima quidem. Mollitia dolore error
+                quidem.
+            </p>
+        </section>
+        <div class="ow">
+            <section class="section container container-center color">
+                <h1 class="">Why join Center of Excellence?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptas suscipit tempora cumque? Accusamus, natus facilis obcaecati, cupiditate quis perspiciatis laudantium quasi dignissimos pariatur, minima quidem. Mollitia dolore
+                    error quidem.</p>
+            </section>
+        </div>
+        <section class="section container container-center">
+            <h1 class="">What is Center for Excellence?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptas suscipit tempora cumque? Accusamus, natus facilis obcaecati, cupiditate quis perspiciatis laudantium quasi dignissimos pariatur, minima quidem. Mollitia dolore error
+                quidem.
+            </p>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-heading">
+            <h2>Center of Excellence</h2>
+            <p>IIIT-Delhi</p>
+            <hr class="footer-hr">
+        </div>
+        <div class="footer-flex">
+            <div class="footer-flex-child">
+                <h4>Newsletter</h4>
+                <p>Get notified when we publish something new! Unsubscribe anytime.</p>
+            </div class="footer-flex-child">
+            <div>
+                <h4>Contact us</h4>
+                <p>Have a generative design project in mind? Let's chat!</p>
+            </div>
+            <div class="footer-flex-child">
+                <h4>More products</h4>
+                <p>If you like svg shape generators, Let us know about it.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script id="rendered-js">
+        let nav = document.getElementById('navigation');
+
+        function toggleMenu() {
+            nav.classList.toggle('navigation--visible');
+        }
+    </script>
+</body>
+
+</html>
